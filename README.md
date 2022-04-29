@@ -7,3 +7,5 @@ The application is developed by using Python3.6 on Ubuntu 16.04. It requires:
 - Python Package: numpy package, pymongo package
 
 Branch_client.py demonstrates the client side of Alice and Bob.
+
+Branch_cloud.py demostrates the cloud side of Cloud A and Cloud B.
