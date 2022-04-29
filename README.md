@@ -1,2 +1,8 @@
 # Branch
-An instance of KS2E
+Prototype example developed for KS2E.
+
+The application is developed by using Python3.6 on Ubuntu 16.04. It requires:
+- MongoDB v3.0.15
+- Openssl v1.0.2g
+- Python Package: numpy package, pymongo package
+
