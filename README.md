@@ -8,4 +8,6 @@ The application is developed by using Python3.6 on Ubuntu 16.04. It requires:
 
 Branch_client.py demonstrates the client side of Alice and Bob.
 
-Branch_cloud.py demostrates the cloud side of Cloud A and Cloud B.
+Branch_cloud.py demonstrates the cloud side of Cloud A and Cloud B.
+
+
