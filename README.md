@@ -10,4 +10,8 @@ Branch_client.py demonstrates the client side of Alice and Bob.
 
 Branch_cloud.py demonstrates the cloud side of Cloud A and Cloud B.
 
+Diana_test.py demonstrates the Diana realization by python & C code.
 
+The python code in the 'Database'
+
+Please contact us for technical issues at.
