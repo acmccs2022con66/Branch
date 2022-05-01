@@ -210,12 +210,12 @@ def complex_thread_find(slice_of_cipher,L_W,last_slice):
 		return result
 def write_cm_file_time(write_CM_share_cnt):
 	global CM_share_time
-	filename = open("./Result/CmShare"+test_db_name+str(write_CM_share_cnt),'w')
+	filename = open("./BobSharetime"+test_db_name+str(write_CM_share_cnt),'w')
 	for ke in CM_share_time:
 		filename.writelines('len:\t'+str(ke) +'\t'+ str(np.mean(CM_share_time[ke]))+'\n')
 	filename.close()
 def write_cm_search_time(test_group,CM_search_time,CM_search_time_latency):
-	filename = open("./Result/CmSearch"+test_db_name+str(test_group),'w')
+	filename = open("./CloudBSearchtime"+test_db_name+str(test_group),'w')
 	for ke in CM_search_time:
 		filename.writelines('len:\t'+str(ke) +'\t'+ str(np.mean(CM_search_time[ke]))+'\t'+ str(np.mean(CM_search_time_latency[ke]))+ '\n')
 	filename.close()
