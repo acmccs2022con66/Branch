@@ -102,7 +102,7 @@ def Encrypt(keywords,fileid):
 
 	return fileindex_encrypted_time, Keywords_Cipher
 def write_encrypted_time(test_group,data):
-	filename = open("./Result/"+test_group,'a')
+	filename = open("./Aliceupdating"+test_group,'a')
 	for d in data:
 		filename.writelines(d)
 	filename.close()
@@ -239,7 +239,7 @@ def complex_thread_find(slice_of_cipher,L_id):
 		return result
 
 def write_em_share_time(test_group,EM_share_time,EM_share_time_latency):
-	filename = open("./Result/EmShare"+test_group,'w')
+	filename = open("./CloudBsharetime"+test_group,'w')
 	for ke in EM_share_time:
 		filename.writelines('len:\t'+str(ke) +'\t'+ str(np.mean(EM_share_time[ke]))+'\t'+ str(np.mean(EM_share_time_latency[ke]))+'\n')
 
