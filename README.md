@@ -16,6 +16,19 @@ Branch_B.py demonstrates the interaction on Cloud B, including:
 
 Diana_test.py demonstrates the Diana realization by python & C code.
 
+# Useage
+
+An example code is:
+- python3.6 Branch_B.py lucene b 0
+- python3.6 Branch_A.py lucene bcds 0
+
+More detail:
+
+python3.6 Branch_B.py | test_db_name | test_phase | test_group
+
+
+python3.6 Branch_A.py | test_db_name | test_phase | test_group
+
 
 *The python code in the 'Database_Gen' provides our sample process on the Enron/Lucene/Wikipediadump databases.
 
